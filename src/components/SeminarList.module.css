@@ -1,0 +1,70 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.heading {
+  font-size: 35px; 
+  color: #333; 
+}
+
+.subheading {
+  font-size: 15px;
+  color: #777;
+}
+.bg {
+  background-image: url('./enrollbg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.seminarTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.seminarTable th,
+.seminarTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  font-size: larger ;
+}
+
+.seminarTable th {
+  background-color: #f2f2f2;
+  color: #555;
+}
+
+tr:hover {
+  background-color: #fffeac;
+}
+
+.seminarTable td button {
+  margin-right: 8px;
+}
+/* Add this to your CSS or create a separate CSS file */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 1000; /* Ensure the modal is on top of everything */
+  justify-content: center;
+  align-items: center;
+}
+
+.add-seminar-form {
+  background-color: #fff; /* White background for the form */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 1001; /* Ensure the form is on top of the overlay */
+}
+

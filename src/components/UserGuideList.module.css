@@ -1,0 +1,26 @@
+/* Add your styles for UserGuideList component here */
+
+.Bg {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .projectGuideList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .guideContainer {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .guideContainer strong {
+    font-weight: bold;
+  }
+  
+  /* You can add more styles as needed */
+  

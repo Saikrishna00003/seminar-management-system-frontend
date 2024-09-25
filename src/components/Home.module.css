@@ -1,0 +1,107 @@
+/* CSS for the split container */
+.split {
+  display: flex;
+  
+}
+
+/* CSS for the main content */
+.main {
+  font-family: 'Times New Roman', Times, serif;
+  color: #000; /* Set text color to black */
+}
+
+/* CSS for the right panel */
+.rightpanel {
+  margin-top: 10px;
+  width: 15%;
+  background-color: #333333; /* Light gray background color */
+  padding: 10px;
+}
+.testimonial p{
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
+  color: #fffb00;
+}
+
+/* CSS for the home background */
+.home {
+  background-image: url('./home5.jpg');
+  background-color: #f5f5f5;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* CSS for the logo container */
+.logoContainer {
+  width: 100%;
+  height: 150px;
+  background-image: url('Logo.PNG');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* CSS for the footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-top: 0; /* Remove top margin */
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* CSS for the navigation bar */
+.navbar {
+  background-color: rgb(95, 172, 8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* CSS for the navigation links */
+.navLink {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Add a hover effect if desired */
+.navLink:hover {
+  color: #fffb00;
+}
+
+/* CSS for the content container */
+.content {
+  position: relative;
+}
+.content p{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* CSS for the "Read More" button */
+.readMoreBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: blue;
+}
+
+/* CSS for the additional content */
+.additionalContent {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(237, 229, 229); /* Set text color to black */
+}
+.yellowText {
+  color: yellow !important;
+}

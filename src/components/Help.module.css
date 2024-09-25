@@ -1,0 +1,53 @@
+/* Help.module.css */
+
+.help {
+  margin: 20px;
+  padding: 20px;
+  background-image: url('./help.jpg');
+  background-size: cover; /* Ensure the background image covers the element */
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  background-position: center; /* Center the background image */
+}
+
+.bg {
+  background-color: rgb(74, 97, 128);
+  height: 100vh;
+}
+
+.title {
+  font-size: 40px;
+  color: rgb(11, 100, 45);
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 0;
+}
+
+.text {
+  font-size: 23px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: rgb(179, 24, 24);
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  font-size: 20px;
+  margin-bottom: 5px;
+  cursor: pointer; /* Add cursor pointer to indicate clickable items */
+}
+
+.selected {
+  font-size: 24px; /* Increase font size for the selected item */
+  font-weight: bold; /* Make the selected item bold */
+  color: #ff6600; /* Change color for the selected item */
+}
+
+.content {
+  font-size: 18px; /* Adjust content font size */
+  margin-top: 10px; /* Add margin to separate content from selected item */
+}

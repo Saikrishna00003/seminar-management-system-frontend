@@ -1,0 +1,16 @@
+.menu-bar {
+  background-color: rgb(202, 39, 39);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.menu-bar a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}

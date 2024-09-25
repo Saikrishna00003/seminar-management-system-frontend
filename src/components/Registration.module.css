@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.reg {
+  background-image: url('./regbg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh ;
+  width: 100% ;
+  margin: 0 ;
+  padding: 0 ;
+}
+.reg h2{
+  font-size: 40px;
+  margin-bottom: 0;
+}
+.scrollingTextContainer {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+.scrollingText {
+  color: rgb(255, 0, 21);
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 20s linear infinite;
+}   
+@keyframes scroll-left {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}  
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #08ebfcc0;
+    border-radius: 10px;
+  }
+  
+  input {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    margin: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2E8B57;
+  }
+  
+  .login-link {
+    font-size: larger;
+    margin-top: 20px;
+    text-align: center;
+  }
+  /* Add this to your existing CSS file */
+.error {
+  color: #FF0000; /* Set the text color to red */
+  font-size: 14px; /* Increase the font size for better visibility */
+  margin-top: 5px; /* Add some space above the error message */
+  font-weight: bold; /* Make the error message bold */
+}
