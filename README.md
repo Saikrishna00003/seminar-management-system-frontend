@@ -1,6 +1,6 @@
 # SEMINAR MANAGEMENT SYSTEM
 
-<b> Key Features:</b>
+## Key Features:
   
  •
  Admin Control Panel: Implemented admin control for seminar, guide, and user management.
